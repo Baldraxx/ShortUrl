@@ -1,0 +1,52 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Runtime data
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing
+/coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# Mongoose auto-generated files (if any)
+/data/db/
+
+# Misc
+*.tgz
